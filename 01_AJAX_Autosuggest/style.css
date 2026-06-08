@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+    padding:20px;
+}
+
+.box{
+    width:80%;
+    max-width:1000px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:25px;
+    padding:35px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.4);
+}
+
+h1{
+    color:white;
+    margin-bottom:25px;
+    font-size:40px;
+    letter-spacing:1px;
+    text-align: center;
+}
+
+.mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto 0;
+}
+
+select{
+    width:220px;
+    height:45px;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+    border-radius:12px;
+    padding:0 15px;
+    font-size:15px;
+    outline:none;
+    cursor:pointer;
+}
+
+option{
+    background:#1e293b;
+    color:white;
+}
+
+.btn{
+    width:140px;
+    height:45px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(59,130,246,.4);
+}
+
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:18px;
+}
+
+thead{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+}
+
+thead th{
+    color:white;
+    padding:18px;
+    font-size:17px;
+    text-align:left;
+}
+
+tbody{
+    background:rgba(255,255,255,0.05);
+}
+
+tbody tr{
+    transition:.3s;
+}
+
+tbody tr:hover{
+    background:rgba(255,255,255,0.08);
+}
+
+tbody td{
+    padding:18px;
+    color:#e2e8f0;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+tbody tr:last-child td{
+    border-bottom:none;
+}
+
+/* Back Button */
+a .btn{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:100px;
+    background:rgba(255,255,255,0.1);
+}
+
+a .btn:hover{
+    background:#3b82f6;
+}
