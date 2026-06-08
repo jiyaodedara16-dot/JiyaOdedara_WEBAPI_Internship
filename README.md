@@ -1,10 +1,10 @@
 # PHP Practical Assignments
 
-**Student Name:** Jiya Odedara
-**Enrollment No:** 246270307079
-**Semester:** 4th
-**Collage:** Government Ploytechnic Porbandar
-**Subject:** Web Development & API Integration
+**Student Name:** Jiya Odedara\n
+**Enrollment No:** 246270307079\n
+**Semester:** 4th\n
+**Collage:** Government Ploytechnic Porbandar\n
+**Subject:** Web Development & API Integration\n
 
 ## Repository Overview
 
