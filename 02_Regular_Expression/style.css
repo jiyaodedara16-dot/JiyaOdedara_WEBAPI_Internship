@@ -1,0 +1,146 @@
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            min-height: 100vh;
+            width: 100%;
+            background-image: url('https://img.freepik.com/premium-photo/purple-gradient-abstract-background-with-copy-space-your-text-image_743855-57162.jpg');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+        }
+        .box{
+            min-width: 80%;
+            min-height: 80vh;
+            background: #00000078;
+            border-radius: 50px;
+        }
+        .box .heading h2{
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            text-decoration: underline;
+            text-decoration-thickness: 0.7px;
+            text-underline-offset: 7px;
+        }
+        .box .row{
+            width: 100%;
+            display: flex;
+            gap: 40px;
+            margin: 40px 0;
+            padding: 0 80px;
+            box-sizing: border-box;
+        }
+
+        .field input, .field select{
+            width:100%;
+            box-sizing:border-box;
+        }
+        .row input, .row select{
+            flex: 1;
+        }
+
+        .box .row .field input{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 5px 10px;
+            width: auto;
+            flex: 1;
+        }
+        input::placeholder{
+            color: #ffffff88;
+        }
+        .box .row .field input:focus{
+            background: #ffffff58;
+            border-radius: 10px;
+        }  
+        .field{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin: 0 20px;
+        } 
+
+        select{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            font-size:18px;
+            background:none;
+            padding: 5px 10px;
+            flex: 1;
+            width: 260px;
+        }
+        select option{
+            color: #111;
+        }
+        .gender{
+            justify-content: left;
+        }
+
+        .gender-box{
+            width: 300px;
+            padding-left: 30px;
+        }
+
+        .gender-box label{
+            display: block;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .radio-group{
+            display: flex;
+            gap: 30px;
+        }
+
+        .radio-item{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+        }
+        form button{
+            border: 1px solid #fff;
+            outline: none;
+            width: 250px;
+            height: 50px;
+            border-radius: 50px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+            font-size: 18px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+
+        .field span{
+            color: red;
+        }
+        /* a .btn{
+            width: 100px;
+            height: 30px;
+            background: #ffffffaa;
+            color: #0F2854;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            position: absolute;
+            top: 20;
+            left: 20;
+        } */
