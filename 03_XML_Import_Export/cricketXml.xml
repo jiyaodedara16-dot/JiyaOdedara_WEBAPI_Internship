@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+    <players>
+
+        <player>
+            <playername>Virat Kohli</playername>
+            <role>Batsman</role>
+        </player>
+        <player>
+            <playername>Rohit Sharma</playername>
+            <role>Batsman</role>
+        </player>
+        <player>
+            <playername>Jasprit Bumrah</playername>
+            <role>Bowler</role>
+        </player>
+        <player>
+            <playername>Mohhomad Siraj</playername>
+            <role>Bowler</role>
+        </player>
+    </players>
