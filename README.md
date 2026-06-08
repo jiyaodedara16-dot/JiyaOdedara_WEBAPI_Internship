@@ -1,8 +1,9 @@
 # PHP Practical Assignments
 
-**Student Name:** [Your Name]
-**Enrollment No:** [Your Enrollment Number]
-**Semester:** [Semester]
+**Student Name:** Jiya Odedara
+**Enrollment No:** 246270307079
+**Semester:** 4th
+**Collage:** Government Ploytechnic Porbandar
 **Subject:** Web Development & API Integration
 
 ## Repository Overview
