@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    radial-gradient(circle at top left,#1e3a8a,#0f172a 40%),
+    radial-gradient(circle at bottom right,#2563eb,#0f172a 40%);
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+    padding:20px;
+}
+
+.login-card{
+
+    backdrop-filter:blur(18px);
+    background:rgba(255,255,255,0.08);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.35),
+    0 0 30px rgba(59,130,246,.15);
+
+}
+
+.login-card h1{
+
+    color:#fff;
+    text-align:center;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.input-group{
+    margin-bottom:18px;
+}
+
+.input-group label{
+    color:#dbeafe;
+    display:block;
+    margin-bottom:8px;
+}
+
+.input-group input{
+
+    width:100%;
+    padding:14px;
+
+    border:none;
+    outline:none;
+
+    border-radius:12px;
+
+    background:#ffffff14;
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    transition:.3s;
+}
+
+.input-group input:focus{
+
+    border-color:#3b82f6;
+
+    box-shadow:
+    0 0 12px rgba(59,130,246,.4);
+}
+
+.input-group input::placeholder{
+    color:#b6c2d6;
+}
+
+.captcha-box{
+
+    margin:25px 0;
+
+    height:85px;
+
+    border-radius:12px;
+
+    border:2px dashed rgba(255,255,255,.25);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#dbeafe;
+
+    background:rgba(255,255,255,.05);
+}
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(
+    135deg,
+    #3b82f6,
+    #2563eb
+    );
+
+    color:white;
+
+    font-size:17px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 0 20px rgba(59,130,246,.5);
+}
+
+.footer{
+
+    text-align:center;
+    margin-top:18px;
+
+    color:#dbeafe;
+}
+
+.footer a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+.error{
+    color: red;
+    padding: 5px;
+}
