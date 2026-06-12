@@ -1,11 +1,11 @@
 <?php
 include "phpqrcode/qrlib.php";
 
-$name = 'Jiya Odedar';
+$name = 'Jiya Odedara';
 $collage = 'Government Polytechnic Porbandar';
 $sem = '4TH';
 
-$data = "<h2>Name : $name\nCollage : $collage\nSem : $sem</h3>";
+$data = "<h2>Name : $name\nCollage : $collage\nSem : $sem</h2>";
 
 $file = 'qrCodes/qrcode.png';
 if(!is_dir('qrCodes')){

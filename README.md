@@ -8,7 +8,7 @@
 
 ## Repository Overview
 
-This repository contains the practical assignments completed as part of the **Web Development & API Integration** internship/academic coursework. The projects demonstrate the implementation of various PHP concepts, client-server communication techniques, data validation methods, document generation, XML data handling, and QR code integration.
+This repository contains the practical assignments completed as part of the **Web Development & API Integration** internship/academic coursework. The projects demonstrate the implementation of various PHP concepts, client-server communication techniques, data validation methods, document generation, XML data handling, QR code integration, and Ecxel exporting & importing.
 
 Each practical focuses on a specific real-world web development concept and provides hands-on experience with PHP and related technologies.
 
@@ -52,6 +52,11 @@ Developed a PDF generation system using the FPDF library. Data is fetched from a
 
 Implemented QR Code generation using PHP. User information is encoded into a QR Code image, which can be scanned to retrieve the stored details. This practical demonstrates the integration of QR technology into web applications for information sharing and identification purposes.
 
+### 6. Ecxel Export Import
+
+This practical demonstrates Excel file handling in PHP using PhpSpreadsheet. A form is used to collect user details such as username, email, and profile image. The submitted data is stored in an Excel file instead of a database. On another page, the Excel data is retrieved and displayed dynamically in a table along with the profile images.
+
+
 ---
 
 ## Technologies Used
@@ -66,6 +71,7 @@ Implemented QR Code generation using PHP. User information is encoded into a QR 
 * XML
 * FPDF Library
 * PHP QR Code Library
+* PhpSpreadsheet
 
 ## Learning Outcomes
 
