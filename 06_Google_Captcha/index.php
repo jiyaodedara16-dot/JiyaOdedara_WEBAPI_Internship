@@ -34,8 +34,10 @@
                     <input name="password" type="password" placeholder="Enter Password">
                 </div>
 
-                <div class="g-recaptcha captcha-box" data-sitekey="6LcXdBUtAAAAAMSxC8iO4WQ55YyfAvtk5LJT9NZ2" data-callback="removeDisable" >
-                    Google reCAPTCHA Here
+                <div class="captcha-box">
+                    <div class="g-recaptcha" data-sitekey="6LcXdBUtAAAAAMSxC8iO4WQ55YyfAvtk5LJT9NZ2" data-callback="removeDisable" >
+                        Google reCAPTCHA Here
+                    </div>
                 </div>
 
                 <button type="submit" name="login" id="loginBtn" disabled="disabled">

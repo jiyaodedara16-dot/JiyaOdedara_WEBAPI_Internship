@@ -32,7 +32,7 @@ QRcode::png($data, $file, QR_ECLEVEL_L, 5);
             <h1>Qrcode Generated</h1>
             <p>Scan the Qrcode</p>
 
-            <div class="captcha-box">
+            <div class="qrbox">
                 <img src="<?php echo $file;?>" height="200" width="200" alt="">
             </div>
 
