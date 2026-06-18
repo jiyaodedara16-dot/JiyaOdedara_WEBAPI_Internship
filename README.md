@@ -6,7 +6,7 @@
 **College:** Government Polytechnic Porbandar\n
 **Subject:** Web Development & API Integration
 
--
+--
 
 # Repository Overview
 
@@ -14,7 +14,7 @@ This repository contains the practical assignments completed as part of the **We
 
 Each practical focuses on a real-world web development concept and provides hands-on experience with PHP and related technologies.
 
--
+--
 
 # Practical List
 
@@ -29,7 +29,7 @@ Developed an AJAX-based student filtering system where users can select a study 
 * JavaScript
 * MySQL
 
--
+--
 
 ## 2. Regular Expression Validation
 
@@ -51,7 +51,7 @@ This practical ensures proper input validation and improves data integrity and s
 * Form Validation
 * Pattern Matching
 
--
+--
 
 ## 3. XML Import & Export
 
@@ -69,7 +69,7 @@ This project showcases structured data exchange using XML.
 * SimpleXML
 * PHP File Handling
 
--
+--
 
 ## 4. PDF Creation using FPDF
 
@@ -83,7 +83,7 @@ This practical demonstrates server-side report generation and PDF creation.
 * PHP
 * MySQL
 
--
+--
 
 ## 5. QR Code Generation and Storage
 
@@ -108,7 +108,7 @@ This practical demonstrates QR technology integration for information sharing an
 * File Handling
 * Dynamic Image Generation
 
--
+--
 
 ## 6. Excel Export & Import
 
@@ -127,7 +127,7 @@ Features include:
 * File Handling
 * Excel Processing
 
--
+--
 
 ## 7. API-Based Login & Registration with Validation
 
@@ -149,7 +149,7 @@ This practical demonstrates API integration and authentication concepts.
 * Form Validation
 * Authentication
 
--
+--
 
 ## 8. Google reCAPTCHA Integration
 
@@ -167,7 +167,7 @@ Features include:
 * PHP
 * Security Implementation
 
--
+--
 
 # Technologies Used
 
@@ -186,7 +186,7 @@ Features include:
 * REST API
 * Regular Expressions (Regex)
 
--
+--
 
 # Learning Outcomes
 
