@@ -91,9 +91,9 @@ body{
 .captcha-box{
 
     margin:25px 0;
-
-    height:85px;
-
+    width: auto !important;
+    height:auto !important;
+    padding:5px;
     border-radius:12px;
 
     border:2px dashed rgba(255,255,255,.25);
