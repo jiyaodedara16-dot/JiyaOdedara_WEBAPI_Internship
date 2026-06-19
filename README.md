@@ -10,7 +10,7 @@
 
 # Repository Overview
 
-This repository contains the practical assignments completed as part of the **Web Development & API Integration** internship/academic coursework. These projects demonstrate the implementation of various PHP concepts, client-server communication techniques, input validation methods, document generation, XML data handling, QR code integration, Excel file processing, API usage, and security mechanisms.
+This repository contains the practical assignments completed as part of the **Web Development & API Integration** internship/academic coursework. These projects demonstrate the implementation of various PHP concepts, client-server communication techniques, input validation methods, document generation, XML data handling, QR code integration, Excel file processing, API usage, security mechanisms and Razorpay payment gateways integration using API in PHP. 
 
 Each practical focuses on a real-world web development concept and provides hands-on experience with PHP and related technologies.
 
@@ -168,6 +168,29 @@ Features include:
 * Security Implementation
 
 ---
+## 9. Razorpay Payment Gateway Integration
+
+Implemented **Razorpay Payment Gateway** using PHP for secure online payment processing.
+
+Features include:
+
+* User details form (Name, Email, Amount)
+* Payment processing using Razorpay API
+* Automatic payment verification
+* Display of payment success page with Payment ID
+* Storage of payment details in MySQL database
+
+This practical demonstrates API integration and real-time payment processing concepts.
+
+### Concepts Used
+
+* Razorpay API
+* PHP
+* MySQL Database
+* Payment Verification
+* API Integration
+
+---
 
 # Technologies Used
 
@@ -185,11 +208,12 @@ Features include:
 * Google reCAPTCHA API
 * REST API
 * Regular Expressions (Regex)
+* Razorpay API
 
 ---
 
 # Learning Outcomes
 
-Through these practical assignments, important concepts such as asynchronous data loading, input validation, XML processing, PDF generation, QR code implementation, Excel file handling, API integration, authentication mechanisms, and security enhancement using Google reCAPTCHA were explored and implemented in real-world scenarios.
+Through these practical assignments, important concepts such as asynchronous data loading, input validation, XML processing, PDF generation, QR code implementation, Excel file handling, API integration, authentication mechanisms, and security enhancement using Google reCAPTCHA were explored and implemented in real-world scenarios.Hands-on experience with payment gateway integration and transaction management using Razorpay API was also gained, including storing payment records and handling payment responses securely.
 
 These practicals provided hands-on experience in developing dynamic, secure, and user-friendly web applications using PHP and related technologies.
